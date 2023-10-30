@@ -61,3 +61,27 @@ git log
 ```sh
 git log --graph
 ```
+
+Просмотр всех веток
+```sh
+git branch
+```
+
+добавить новую ветку <name>
+```sh
+git branch <name>
+```
+
+Чтобы слить ветки, нужно перейти на Главную ветку (Master) и набрать команду
+```sh
+git merge <branchName>
+```
+Переход с одной ветки на другую
+```sh
+git checkout <branchName>
+```
+
+Удаление ветки
+```sh
+git branch -d <branchName>
+```
